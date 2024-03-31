@@ -437,12 +437,11 @@ Langkah Tindak Lanjut:
 Dengan mengambil langkah-langkah tindak lanjut ini, perusahaan asuransi dapat memanfaatkan model analisis prediktif ini untuk meningkatkan ketepatan penetapan premi, meningkatkan transparansi, dan memberikan manfaat yang lebih baik bagi calon pemegang polis dalam pengalaman asuransi kesehatan mereka.
 
 ## References: 
-  Chauluka M, Uzochukwu B, and Chinkhumba J, "Factors Associated With Coverage of Health Insurance Among Women in Malawi," *Frontiers in Health Services*, vol.2, 2022.
 
-  Michael Chernew, David M Cutler, and Patricia Seliger Keenan, "Increasing Health Insurance Costs and the Decline in Insurance Coverage,
-" *Health Services Research*, vol.40, no.10.1111. 2005. 
+Chauluka, M., Uzochukwu, B., & Chinkhumba, J. (2022). Factors Associated With Coverage of Health Insurance Among Women in Malawi. Frontiers in Health Services, 2, 2022.
 
-  Samantha Artiga, Petry Ubri, and Julia Zur, "The Effects of Premiums and Cost Sharing on Low-Income Populations: Updated Review of Research Findings The Effects of Premiums and Cost Sharing on Low-Income Populations 2," *Issue Brief*, 2017
+Chernew, M., Cutler, D. M., & Keenan, P. S. (2005). Increasing Health Insurance Costs and the Decline in Insurance Coverage. Health Services Research, 40(10.1111).
 
+Artiga, S., Ubri, P., & Zur, J. (2017). The Effects of Premiums and Cost Sharing on Low-Income Populations: Updated Review of Research Findings. Issue Brief.
 
 
