@@ -215,32 +215,32 @@ Visualisasi Boxplot:
 ![outliers_boxplot](https://github.com/nikofebrianur/Machine-Learning-Terapan/assets/42314371/994b7ef1-fe6d-4bc4-94a5-5800322fe11f)
 ###### Gambar 6.1 Visualisasi outliers menggunakan boxplot
 
-Dengan menggunakan metode IQR dan visualisasi boxplot, kita dapat mengidentifikasi dan mengatasi outlier dalam data. Outlier dapat menjadi nilai yang ekstrem dan tidak biasa yang dapat mempengaruhi hasil analisis statistik dan model prediksi. 
+Dengan menerapkan metode IQR dan visualisasi boxplot, outlier dalam data dapat diidentifikasi dan diatasi. Outlier merupakan nilai yang ekstrem dan tidak biasa yang berpotensi memengaruhi hasil analisis statistik dan model prediksi.
 
-Dengan memperhatikan IQR dan melihat visualisasi boxplot, kita dapat menentukan batas atas dan batas bawah untuk outlier, serta mengambil tindakan yang tepat, seperti menghapus atau mengelola outlier tersebut, agar tidak mempengaruhi hasil analisis secara signifikan.
+Dengan memperhatikan IQR dan mengamati visualisasi boxplot, batas atas dan batas bawah untuk outlier dapat ditentukan, serta tindakan yang tepat dapat diambil, seperti penghapusan atau pengelolaan outlier tersebut, agar hasil analisis tidak terpengaruh secara signifikan.
 
-Kemudian untuk menganalisa sebaran dataset, kita dapat menggunakan histogram. Histogram adalah visualisasi grafis yang digunakan untuk menampilkan distribusi frekuensi dari suatu variabel dalam bentuk interval atau bin.
+Untuk menganalisis sebaran dataset, histogram dapat digunakan. Histogram adalah visualisasi grafis yang digunakan untuk menampilkan distribusi frekuensi dari suatu variabel dalam bentuk interval atau bin.
 
-Berikut adalah langkah-langkah untuk menganalisa sebaran dataset menggunakan histogram:
+Berikut adalah langkah-langkah untuk menganalisis sebaran dataset menggunakan histogram:
 
-1. Membagi Data Menjadi Interval atau Bin:
-   - Pertama, kita perlu membagi data ke dalam interval atau bin. Jumlah dan lebar interval dapat bervariasi tergantung pada dataset dan tujuan analisis.
-   - Untuk mendapatkan jumlah interval yang tepat, kita bisa menggunakan aturan umum seperti aturan Sturges atau Scott's normal reference rule.
+Pembagian Data Menjadi Interval atau Bin:
 
-2. Menghitung Frekuensi:
-   - Selanjutnya, kita menghitung frekuensi munculnya data di setiap interval. Frekuensi dapat dihitung sebagai jumlah observasi yang jatuh di dalam setiap interval.
+Pertama, data perlu dibagi ke dalam interval atau bin. Jumlah dan lebar interval dapat disesuaikan tergantung pada dataset dan tujuan analisis.
+Untuk mendapatkan jumlah interval yang tepat, aturan umum seperti aturan Sturges atau Scott's normal reference rule dapat digunakan.
+Perhitungan Frekuensi:
 
-3. Visualisasi dengan Histogram:
-   - Dengan menggunakan data frekuensi yang telah dihitung, kita dapat membuat histogram.
-   - Pada sumbu horizontal, kita menempatkan interval atau bin, sedangkan pada sumbu vertikal, kita menampilkan frekuensi munculnya data dalam interval tersebut.
-   - Untuk menggambarkan histogram, kita dapat menggunakan bar-chart dengan lebar bar yang mencerminkan lebar interval.
+Selanjutnya, frekuensi munculnya data di setiap interval dihitung. Frekuensi dapat dihitung sebagai jumlah observasi yang jatuh di dalam setiap interval.
+Visualisasi dengan Histogram:
 
-4. Interpretasi:
-   - Dengan melihat histogram, kita dapat menganalisa sebaran dataset secara visual.
-   - Kita dapat melihat apakah data memiliki distribusi normal, simetris, asimetris (ke kiri atau ke kanan), atau memiliki pola tertentu seperti bimodal (dua puncak).
-   - Kita juga dapat melihat kisaran nilai yang paling sering muncul dan sebaran nilai di dalam dataset.
+Data frekuensi yang telah dihitung digunakan untuk membuat histogram.
+Interval atau bin ditempatkan pada sumbu horizontal, sedangkan frekuensi munculnya data dalam interval tersebut ditampilkan pada sumbu vertikal.
+Histogram dapat digambarkan dengan menggunakan bar-chart, dengan lebar bar yang mencerminkan lebar interval.
+Interpretasi:
 
-Histogram membantu kita memahami pola dan sebaran data dengan cepat. Analisis sebaran dataset menggunakan histogram memungkinkan kita mengidentifikasi tipe distribusi data, menentukan apakah terdapat outlier, dan memperoleh gambaran umum tentang data tersebut. 
+Dengan melihat histogram, sebaran dataset dapat dianalisis secara visual.
+Pola distribusi data, seperti distribusi normal, simetris, asimetris (ke kiri atau ke kanan), atau pola khusus seperti bimodal (dua puncak), dapat diamati.
+Kisaran nilai yang paling sering muncul dan sebaran nilai dalam dataset dapat diidentifikasi.
+Histogram membantu dalam memahami pola dan sebaran data dengan cepat. Analisis sebaran dataset menggunakan histogram memungkinkan identifikasi tipe distribusi data, penentuan adanya outlier, serta perolehan gambaran umum tentang dataset tersebut.
 
 Hal ini dapat menjadi langkah awal dalam eksplorasi data sebelum melakukan analisis lebih lanjut atau membangun model prediksi.
 
@@ -250,13 +250,13 @@ Hal ini dapat menjadi langkah awal dalam eksplorasi data sebelum melakukan anali
 ![pairplot](https://github.com/nikofebrianur/Machine-Learning-Terapan/assets/42314371/ab84ebd0-4fe9-4436-9439-359c83ee7eb3)
 ###### Gambar 6.2 Korelasi PremiumPrice dengan fitur lainnya
 
-Terakhir, untuk menganalisa keterkaitan antara fitur numerik dan fitur kategori, kita dapat menggunakan correlation matrix dengan fungsi pandas dan visualisasi heatmap menggunakan library seaborn. 
+Terakhir, untuk menganalisis keterkaitan antara fitur numerik dan fitur kategori, dapat diterapkan correlation matrix dengan menggunakan fungsi pandas dan visualisasi heatmap menggunakan pustaka seaborn.
 
-Heatmap menunjukkan tingkat korelasi antara setiap pasangan fitur numerik dan fitur kategori. Warna dalam heatmap mencerminkan tingkat korelasi, di mana warna lebih terang menunjukkan korelasi yang lebih kuat, sedangkan warna lebih gelap menunjukkan korelasi yang lebih lemah atau tidak ada korelasi.
+Heatmap menampilkan tingkat korelasi antara setiap pasangan fitur numerik dan fitur kategori. Intensitas warna dalam heatmap mencerminkan tingkat korelasi, di mana warna yang lebih terang menandakan korelasi yang lebih kuat, sementara warna yang lebih gelap menandakan korelasi yang lebih lemah atau tidak ada korelasi sama sekali.
 
-Kita dapat melihat hubungan positif atau negatif antara fitur numerik dan fitur kategori berdasarkan nilai korelasi. Analisis ini membantu dalam memahami keterkaitan antar fitur-fitur dalam dataset dan dapat memberikan wawasan yang berguna untuk pemilihan fitur, pemodelan, atau analisis lebih lanjut.
+Hubungan positif atau negatif antara fitur numerik dan fitur kategori dapat diamati berdasarkan nilai korelasi. Analisis ini membantu memahami hubungan antar fitur dalam dataset dan memberikan wawasan yang berharga untuk pemilihan fitur, pembuatan model, atau analisis lebih lanjut.
 
-Dengan menggunakan correlation matrix dan visualisasi heatmap, kita dapat dengan mudah menganalisa keterkaitan antara fitur numerik dan fitur kategori dalam dataset secara visual dan kuantitatif.
+Dengan menggunakan correlation matrix dan visualisasi heatmap, keterkaitan antara fitur numerik dan fitur kategori dalam dataset dapat dianalisis secara visual dan kuantitatif dengan mudah.
 
 ![correlation_matrix](https://github.com/nikofebrianur/Machine-Learning-Terapan/assets/42314371/9b8346a0-2cab-4184-be8a-789a447e7f6d)
 ###### Gambar 6.3 Matriks korelasi PremiumPrice 
@@ -281,7 +281,7 @@ Proses pembagian dataset menjadi data training dan data testing penting dalam pe
 
 Data training digunakan untuk melatih model, sedangkan data testing digunakan untuk menguji seberapa baik model yang dilatih dapat melakukan prediksi pada data yang belum pernah dilihat sebelumnya. 
 
-Dengan memisahkan data training dan data testing, kita dapat mengukur sejauh mana model dapat mengeneralisasi dan memprediksi dengan akurat pada data baru.
+Dengan memisahkan data training dan data testing, dapat mengukur sejauh mana model dapat mengeneralisasi dan memprediksi dengan akurat pada data baru.
 
 Rasio 80:20 sering digunakan sebagai perbandingan pembagian data training dan data testing. Data training sebesar 80% digunakan untuk melatih model, sementara data testing sebesar 20% digunakan untuk menguji performa model. 
 
@@ -383,7 +383,7 @@ Namun, *MSE* juga memiliki kelemahan yaitu sensitif terhadap *outlier*, artinya 
 
 Oleh karena itu, terkadang metrik evaluasi alternatif seperti *Mean Absolute Error* (MAE) juga digunakan untuk memberikan gambaran yang lebih lengkap tentang kinerja model.
 
-Berdasarkan hasil evaluasi model setelah menggunakan *hyperparameter*, kita dapat mengambil beberapa kesimpulan:
+Berdasarkan hasil evaluasi model setelah menggunakan *hyperparameter*, dapat diambil beberapa kesimpulan:
 
 1. *Mean Squared Error* (*MSE*) - Train Set:
    - Model *Huber* memiliki *MSE* train set sebesar 18,480,694.56826.
@@ -437,12 +437,12 @@ Langkah Tindak Lanjut:
 Dengan mengambil langkah-langkah tindak lanjut ini, perusahaan asuransi dapat memanfaatkan model analisis prediktif ini untuk meningkatkan ketepatan penetapan premi, meningkatkan transparansi, dan memberikan manfaat yang lebih baik bagi calon pemegang polis dalam pengalaman asuransi kesehatan mereka.
 
 ## References: 
-Chauluka M, Uzochukwu B, and Chinkhumba J, "Factors Associated With Coverage of Health Insurance Among Women in Malawi," *Frontiers in Health Services*, vol.2, 2022.
+  Chauluka M, Uzochukwu B, and Chinkhumba J, "Factors Associated With Coverage of Health Insurance Among Women in Malawi," *Frontiers in Health Services*, vol.2, 2022.
 
-Michael Chernew, David M Cutler, and Patricia Seliger Keenan, "Increasing Health Insurance Costs and the Decline in Insurance Coverage,
+  Michael Chernew, David M Cutler, and Patricia Seliger Keenan, "Increasing Health Insurance Costs and the Decline in Insurance Coverage,
 " *Health Services Research*, vol.40, no.10.1111. 2005. 
 
-Samantha Artiga, Petry Ubri, and Julia Zur, "The Effects of Premiums and Cost Sharing on Low-Income Populations: Updated Review of Research Findings The Effects of Premiums and Cost Sharing on Low-Income Populations 2," *Issue Brief*, 2017
+  Samantha Artiga, Petry Ubri, and Julia Zur, "The Effects of Premiums and Cost Sharing on Low-Income Populations: Updated Review of Research Findings The Effects of Premiums and Cost Sharing on Low-Income Populations 2," *Issue Brief*, 2017
 
 
 
